@@ -9,7 +9,7 @@
     
 <body>
     <!-- 1.下拉选项 -->
-    <div hidden="hidden">
+    <div>
         <span>选项</span>
         <select name="" id="select_abc_1">
             <option value="a">a</option>
@@ -21,10 +21,24 @@
     </div>
 
     <!-- 2.输入框赋值 -->
-    <div >
+    <div hidden="">
         <input type="text" id="name">
         <button id="btn_applay_2">确定</button>
     </div>
+
+    <!-- 3.jq显示和隐藏div -->
+    <div>
+        <span id="show_and_hidden_3">隐藏和显示</span>
+        <br/>
+        <button id="btn_show_3">显示</button>
+        <button id="btn_hide_3">隐藏</button>
+    </div>
+
+    <!-- 4.td内部<>  -->
+    <div>
+        <td>666666666666<abcdefg></td>   
+    </div>
+    <p>555555___55&lt;abc&gt;</p>
 </body>
 <script type="text/javascript" src="./js/test.js"></script>
 </html>
